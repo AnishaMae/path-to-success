@@ -108,9 +108,49 @@ header p {
     margin-bottom: 1.5rem;
 }
 
+nav {
+    display: block;
+    background-color: var(--yellow);
+    text-align: center;
+    margin: 1.5rem -1rem 0;
+    padding: 0.75rem 1rem 1rem;
+    border-radius: 0;
+
+}
+
 nav h2 {
+    font-family: var(--font-general);
+    color: var(--dark-gray);
+    font-style: italic;
+    font-weight: bold;
     font-size: 1.5em;
     text-align: center;
+    margin: 0 0 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    width: 94%;
+}
+
+nav a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--white);
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.8rem 0.9rem;
+    font-size: 1.2em;
 }
 
 h2 {
