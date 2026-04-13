@@ -78,3 +78,49 @@ White:#ffffff;
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+html {
+    background-color: var(--lavender);
+}
+
+body {
+    font-family: var(--font-general);
+    background-color: var(--purple);
+    color: var(--white);
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    line-height: 1.5;
+    display: block;
+}
+
+h1, h2 {
+    font-family: var(--font-h1-h2);
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.15em;
+}
