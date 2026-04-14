@@ -267,7 +267,7 @@ h4 {
     color: var(--white);
     font-size: 1.12em;
     padding: 0.5rem 1rem;
-    margin: 1rem -1rem 0.75rem;
+    margin: 1rem -1rem 1.5rem;
 }
 
 #first-step a {
@@ -283,4 +283,17 @@ h4 {
     padding: 1.5rem 2rem;
     border-radius: 20px;
     box-shadow: 0.35rem 0.35rem 0.25rem var(--dark-gray);
+}
+
+footer {
+    color: var(--white);
+    font-size: 0.85em;
+    text-align: center;
+    display: flex;
+    padding: 1.5rem 4.5rem;
+    justify-content: space-between;
+}
+
+footer a {
+    color: var(--white);
 }
