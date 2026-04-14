@@ -166,3 +166,17 @@ h3 {
 h4 {
     font-size: 1.15em;
 }
+
+#services > section > section {
+    margin: 1.2rem 0.5rem;
+    padding: 2rem 2rem;
+    background-color: var(--white);
+    color: var(--dark-gray);
+    border-radius: 15px;
+}
+
+#services > section > section > h4 {
+    margin: 0.5rem 0;
+    color: var(--purple);
+    font-weight: bold;
+}
