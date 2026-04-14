@@ -261,3 +261,26 @@ h4 {
 #pricing table td:nth-child(2) {
     padding: 1rem 0 1rem 1rem;
 }
+
+#first-step {
+    background-color: var(--pink);
+    color: var(--white);
+    font-size: 1.12em;
+    padding: 0.5rem 1rem;
+    margin: 1rem -1rem 0.75rem;
+}
+
+#first-step a {
+    background-color: var(--white);
+    color: var(--dark-gray);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 1.5rem 0.1rem 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0.35rem 0.35rem 0.25rem var(--dark-gray);
+}
